@@ -1,0 +1,15 @@
+server:
+  port: 8509
+
+spring:
+  application:
+    name: pay-service
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+
+
